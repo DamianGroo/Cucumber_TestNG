@@ -1,0 +1,751 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Użytkownik wprowadza poprawne dane logowania",
+        "description": "",
+        "id": "testng-+-cucumber;użytkownik-wprowadza-poprawne-dane-logowania",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "użytkownik wprowadza w pole login swój login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "użytkownik wprowadza w pole hasło swoje hasło",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "użytkownik klika na przycisk zaloguj",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Strona powitalna jest wyświetlona",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Test nr jeden zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test1_poprawneLogowanie"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Użytkownik wprowadza nie poprawne dane logowania",
+        "description": "",
+        "id": "testng-+-cucumber;użytkownik-wprowadza-nie-poprawne-dane-logowania",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "użytkownik wprowadza w pole login swój login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "użytkownik wprowadza w pole hasło błędne hasło",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "użytkownik klika na przycisk zaloguj",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "Strona z komunikatem błędnego logowania jest widoczna",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "Test nr dwa zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test2_NiePoprawneLogowanie"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Użytkownik wyszukuje konkretny produkt",
+        "description": "",
+        "id": "testng-+-cucumber;użytkownik-wyszukuje-konkretny-produkt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "użytkownik wprowadza w pole login swój login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "użytkownik wprowadza w pole hasło swoje hasło",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "użytkownik klika na przycisk zaloguj",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "Strona powitalna jest wyświetlona",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "Użytkownik wpisuje szukany produkt w wyszukiwarke",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "Użytkownik czeka na znalezienie produktu",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "Użytkownik klika na znaleziony produkt",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "Weryfikacja tytulu strony z wyszukanym produktem",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "Test nr trzy zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test3_WyszukanieProduktu"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Użytkownik błędnie wypełnia formularz rejestracji",
+        "description": "",
+        "id": "testng-+-cucumber;użytkownik-błędnie-wypełnia-formularz-rejestracji",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 56,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 58,
+            "name": "użytkownik klika przycisk Rejestracja",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "użytkownik czeka na wyświetlenie się formularza rejestracji",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "użytkownik wprowadza dane bez adresu email",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "uzytkownik klika przycisk zapoznania sie z regulaminem",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 62,
+            "name": "użytkownik klika przycisk Zalóż Konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "Użytkownik czeka na przetworzenie sie formularza",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "Pojawia się komunikat o błędzie",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "Test nr cztery zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test4_NieudanaRejestracja"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Użytkownik dodaje produkt do koszyka",
+        "description": "",
+        "id": "testng-+-cucumber;użytkownik-dodaje-produkt-do-koszyka",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 71,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 72,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 73,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 74,
+            "name": "użytkownik wprowadza w pole login swój login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "użytkownik wprowadza w pole hasło swoje hasło",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 76,
+            "name": "użytkownik klika na przycisk zaloguj",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 77,
+            "name": "Strona powitalna jest wyświetlona",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 78,
+            "name": "Użytkownik wpisuje szukany produkt w wyszukiwarke",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 79,
+            "name": "Użytkownik czeka na znalezienie produktu",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80,
+            "name": "Użytkownik klika na znaleziony produkt",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 81,
+            "name": "Weryfikacja tytulu strony z wyszukanym produktem",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 82,
+            "name": "Użytkownik dodaje produkt do koszyka",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 83,
+            "name": "Test nr piec zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test5_DodaniePrzedmiotuDoKoszyka"
+          }
+        ]
+      },
+      {
+        "line": 87,
+        "name": "Weryfikacja koloru czcionki",
+        "description": "",
+        "id": "testng-+-cucumber;weryfikacja-koloru-czcionki",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 88,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 89,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 90,
+            "name": "Pobranie koloru",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 91,
+            "name": "Test nr szesc zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test6_sprawdzenieKoloru"
+          }
+        ]
+      },
+      {
+        "line": 95,
+        "name": "Demonstracja negatywnego wyniku testu",
+        "description": "",
+        "id": "testng-+-cucumber;demonstracja-negatywnego-wyniku-testu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 96,
+            "name": "Użytkownik uruchamia strone serwisu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 97,
+            "name": "Strona główna serwisu Media Expert jest wyświetlona",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98,
+            "name": "Użytkownik klika na przycisk Twoje konto",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99,
+            "name": "Użytkownik czeka na załadowanie się strony",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100,
+            "name": "Tytuł sekcji jest inny niż oczekiwany",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 101,
+            "name": "Test nr siedem zakonczony",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@grupaScenariuszy"
+          },
+          {
+            "name": "@test7_TestKtoryKonczySieNiepowodzeniem"
+          }
+        ]
+      }
+    ],
+    "name": "TestNG + Cucumber",
+    "description": "",
+    "id": "testng-+-cucumber",
+    "keyword": "Feature",
+    "uri": "E:/CUCUMBER BIBLIOTEKI I WSZYSTKO/ProjektMavenTestNGwithCucumber/src/test/java/featuresTestNG/TestNGcucumber.feature",
+    "tags": [
+      {
+        "name": "@grupaScenariuszy",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
