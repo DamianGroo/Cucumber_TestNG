@@ -16,13 +16,13 @@ import org.testng.annotations.DataProvider;
       //  , glue = {"E:\\CUCUMBER BIBLIOTEKI I WSZYSTKO\\ProjektMavenTestNGwithCucumber\\src\\main\\java\\stepsDefinitionsTestNG"}
        , glue = {"stepsDefinitionsTestNG"}
       // zle  , glue = {"E:\\CUCUMBER BIBLIOTEKI I WSZYSTKO\\ProjektMavenTestNGwithCucumber\\src\\test\\java\\stepsDefinitionsTestNG"}
-      //  , tags = {"@grupaScenariuszy"}
+       , tags = {"@grupaScenariuszy"}
       //  , tags = {"@test5_DodaniePrzedmiotuDoKoszyka"}
      //   , tags = {"@test1_poprawneLogowanie"}
      //   , plugin = {"pretty", "html:target/site/cucumber-pretty", "json:target/cucumber.json"}
       //  , tags = {"@test5_DodaniePrzedmiotuDoKoszyka"}
 
-        , tags = {"@test_z_waiterem"}
+     //   , tags = {"@test_z_waiterem"}
 
 
      //   , monochrome = true
