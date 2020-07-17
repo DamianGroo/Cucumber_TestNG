@@ -97,7 +97,7 @@ public class stepsTestNG {
 
         WebDriverWait wait = new WebDriverWait(driver, 15);
         WebElement c1 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"30373\"]/div/div/div/div/div/div/div/p[3]/a")));
-        WebElement c2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[5]/div/div/div[3]/div/ul/li[3]/p/span[1]")));
+      //  WebElement c2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[5]/div/div/div[3]/div/ul/li[3]/p/span[1]")));
 
         String wynikLogowania = driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[5]/div/div/div[3]/div/ul/li[3]/p/span[1]")).getText();
 
@@ -283,6 +283,9 @@ public class stepsTestNG {
     @Then("^Pobranie koloru$")
     public void Pobranie_koloru() throws Throwable {
 
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebElement c9 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"30373\"]/div/div/div/div/div/div/div/p[3]/a")));
+
         String color = driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[6]/div/div/div[1]/div/ul/li")).getCssValue("color");
         String[] hexValue = color.replace("rgba(", "").replace(")", "").split(",");
 
@@ -291,7 +294,6 @@ public class stepsTestNG {
         int hexValue2=Integer.parseInt(hexValue[1]);
         hexValue[2] = hexValue[2].trim();
         int hexValue3=Integer.parseInt(hexValue[2]);
-
         String kolorZeStrony = String.format("#%02x%02x%02x", hexValue1, hexValue2, hexValue3);
 
         Assert.assertEquals("#333333", kolorZeStrony);
