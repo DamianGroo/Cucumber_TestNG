@@ -117,3 +117,4 @@ Feature: TestNG + Cucumber
     And WAITER Weryfikacja tytulu strony z wyszukanym produktem
     And WAITER Użytkownik dodaje produkt do koszyka
     And WAITER Test nr piec zakonczony
+    

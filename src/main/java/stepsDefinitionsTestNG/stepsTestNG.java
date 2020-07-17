@@ -622,7 +622,12 @@ public class stepsTestNG {
 
     @Then("^Strona powitalna jest wyświetlona$")
     public void strona_powitalna_jest_wyświetlona() throws Throwable {
-        czas(5000); ///////////////////////////////////////////////////// --------------------------------------------------
+     //   czas(5000); ///////////////////////////////////////////////////// --------------------------------------------------
+
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebElement c1 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"30373\"]/div/div/div/div/div/div/div/p[3]/a")));
+        WebElement c2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[5]/div/div/div[3]/div/ul/li[3]/p/span[1]")));
+
         String wynikLogowania = driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[5]/div/div/div[3]/div/ul/li[3]/p/span[1]")).getText();
 
         //driver.findElement(By.className("is-user")).getText();
