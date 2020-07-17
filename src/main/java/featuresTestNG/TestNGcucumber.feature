@@ -100,3 +100,20 @@ Feature: TestNG + Cucumber
     And Tytuł sekcji jest inny niż oczekiwany
     And Test nr siedem zakonczony
 
+
+  @test_z_waiterem
+  Scenario: WAITERWAITERWAITER
+    Given WAITER Użytkownik uruchamia strone serwisu
+    Then WAITER Strona główna serwisu Media Expert jest wyświetlona
+    And WAITER Użytkownik klika na przycisk Twoje konto
+    And WAITER Użytkownik czeka na załadowanie się strony
+    And WAITER użytkownik wprowadza w pole login swój login
+    And WAITER użytkownik wprowadza w pole hasło swoje hasło
+    And WAITER użytkownik klika na przycisk zaloguj
+    And WAITER Strona powitalna jest wyświetlona
+    And WAITER Użytkownik wpisuje szukany produkt w wyszukiwarke
+    And WAITER Użytkownik czeka na znalezienie produktu
+    And WAITER Użytkownik klika na znaleziony produkt
+    And WAITER Weryfikacja tytulu strony z wyszukanym produktem
+    And WAITER Użytkownik dodaje produkt do koszyka
+    And WAITER Test nr piec zakonczony

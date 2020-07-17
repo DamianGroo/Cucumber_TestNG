@@ -17,9 +17,15 @@ import org.testng.annotations.DataProvider;
        , glue = {"stepsDefinitionsTestNG"}
       // zle  , glue = {"E:\\CUCUMBER BIBLIOTEKI I WSZYSTKO\\ProjektMavenTestNGwithCucumber\\src\\test\\java\\stepsDefinitionsTestNG"}
       //  , tags = {"@grupaScenariuszy"}
-        , tags = {"@test1_poprawneLogowanie"}
+      //  , tags = {"@test5_DodaniePrzedmiotuDoKoszyka"}
+     //   , tags = {"@test1_poprawneLogowanie"}
      //   , plugin = {"pretty", "html:target/site/cucumber-pretty", "json:target/cucumber.json"}
-        , monochrome = true
+      //  , tags = {"@test5_DodaniePrzedmiotuDoKoszyka"}
+
+        , tags = {"@test_z_waiterem"}
+
+
+     //   , monochrome = true
 )
 
 
